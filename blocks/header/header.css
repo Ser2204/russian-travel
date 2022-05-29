@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a2c2f;
+  margin: 28px 48px 0 48px;
+}
+
+.logo-header {
+  width: 176px;
+  height: 52px;
+}
+
+.switcher {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 46px 48px 0 0;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.switcher__lang-link {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: right;
+  align-self: 24px;
+  color: #ffffff;
+}
+
+.switcher__lang-link:hover {
+  opacity: 0.6;
+}
+
+.switcher__lang-link:focus {
+  text-decoration: underline;
+}
