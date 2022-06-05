@@ -1,0 +1,10 @@
+@import url(__lang-link/switcher__lang-link.css);
+
+.switcher {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-self: end;
+  margin: 0;
+  cursor: pointer;
+}

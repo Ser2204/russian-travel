@@ -1,37 +1,37 @@
+@import url(__caption/lead__caption.css);
+@import url(__image/lead__image.css);
+@import url(__subtitle/lead__subtitle.css);
+@import url(__title/lead__title.css);
+
 .lead {
-  margin: 56px 148px 0 148px;
+  margin: 56px auto 92px;
   max-width: 984px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.lead-title {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 720px;
-  max-height: 200px;
-  font-size: 96px;
-  font-weight: 900;
-  line-height: 100px;
+@media screen and (max-width: 1280px) {
+  .lead {
+    width: 92.5%;
+  }
 }
 
-.lead-subtitle {
-  max-width: 640px;
-  max-height: 72px;
-  text-align: center;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
-  margin: 32px auto 64px;
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: 90.625%;
+  }
 }
 
-.lead_image {
-  width: 100%;
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 93.75%;
+    margin: 48px auto 88px;
+  }
 }
-.lead_caption {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 14px;
-  margin: 8px 0 0;
+
+@media screen and (max-width: 320px) {
+  .lead {
+    width: 90%;
+    margin: 48px auto 64px;
+  }
 }

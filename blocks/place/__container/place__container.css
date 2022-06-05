@@ -1,0 +1,13 @@
+.place__container {
+  display: grid;
+  grid-row: 1;
+  grid-column: 2;
+  align-self: end;
+}
+
+@media screen and (max-width: 320px) {
+  .place__container {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+}

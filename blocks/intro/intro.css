@@ -1,34 +1,35 @@
+@import url(__list/intro__list.css);
+@import url(__text/intro__text.css);
+@import url(__title/intro__title.css);
+
 .intro {
-  max-width: 690px;
-  height: 429px;
-  margin: 0 auto 92px 148px;
-}
-.intro__title {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 58px;
-  margin: 92px 0 40px;
+  max-width: 984px;
+  min-height: 429px;
+  margin: 92px auto 92px;
 }
 
-.intro__text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
-  margin: 0 0 33px 0;
+@media screen and (max-width: 1280px) {
+  .intro {
+    width: 92.5%;
+  }
 }
 
-.intro__list {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 18px;
-  margin: 0;
-  list-style-type: none;
-  padding: 0;
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 90.625%;
+  }
 }
 
-.intro__list-span {
-  font-weight: 400;
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 93.75%;
+    margin: 64px auto 64px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 90%;
+    margin: 64px auto 64px;
+  }
 }
