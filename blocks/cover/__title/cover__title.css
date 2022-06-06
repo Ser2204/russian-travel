@@ -7,14 +7,21 @@
   /* or 106% */
   text-align: center;
   color: #fff;
-  margin: 20% auto 32px;
-  grid-row: 1;
+  margin: 0% auto 32px;
   position: relative;
-  z-index: 4;
+  z-index: 2;
   align-self: end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
+  .cover__title {
+    margin: auto;
+    font-size: 9.375vw;
+    line-height: 10.15vw;
+  }
+}
+
+@media screen and (max-width: 440px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;

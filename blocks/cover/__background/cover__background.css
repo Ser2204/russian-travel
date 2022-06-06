@@ -1,0 +1,61 @@
+.cover__background {
+  min-height: calc(100vw * 740 / 1280);
+  position: relative;
+  background: url(../../../image/sprint-3-images/cover-trains.jpg)
+    /*,
+    linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3))*/;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-blend-mode: overlay;
+  margin: auto;
+  text-decoration: none;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*
+.cover__link {
+  text-decoration: none;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}*/
+
+.cover__background:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  transition: opacity 0.2s linear;
+}
+.cover__background:hover:after {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    min-height: calc(100vw * 640 / 1024);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    min-height: calc(100vw * 480 / 768);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    min-height: calc(100vw * 200 / 320);
+  }
+}

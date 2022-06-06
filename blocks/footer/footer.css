@@ -3,7 +3,7 @@
 @import url(__author/footer__author.css);
 
 .footer {
-  max-width: 92.5%;
+  max-width: 1184px;
   min-height: 18px;
   margin: 92px auto 24px;
   display: flex;
@@ -23,13 +23,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
   .footer {
     width: 93.75%;
+    flex-direction: column;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 440px) {
   .footer {
     width: 90%;
   }
