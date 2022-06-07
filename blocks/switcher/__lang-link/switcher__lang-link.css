@@ -5,16 +5,12 @@
   line-height: 28px;
   letter-spacing: 0em;
   text-align: right;
-  padding-right: 18px;
+  margin-right: 18px;
   color: #ffffff;
 }
 
 .switcher__lang-link:hover {
   opacity: 0.6;
-}
-
-.switcher__lang-link:focus {
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 440px) {

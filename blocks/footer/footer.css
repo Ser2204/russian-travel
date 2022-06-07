@@ -1,7 +1,3 @@
-@import url(__links/footer__links.css);
-@import url(__text/footer__text.css);
-@import url(__author/footer__author.css);
-
 .footer {
   max-width: 1184px;
   min-height: 18px;

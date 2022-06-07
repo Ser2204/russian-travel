@@ -1,6 +1,5 @@
-@import url(__lang-link/switcher__lang-link.css);
-
 .switcher {
+  list-style-type: none;
   position: relative;
   display: flex;
   justify-content: space-between;
