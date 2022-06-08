@@ -1,9 +1,10 @@
 .switcher {
   list-style-type: none;
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-self: end;
   margin: 0;
+  margin-bottom: 6px;
   cursor: pointer;
+  padding: 0;
 }
