@@ -11,16 +11,20 @@
   }
 }
 
+@media screen and (max-width: 990px) {
+  .place__img {
+    max-width: 44vw;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place__img {
     max-width: 340px;
-    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 440px) {
   .place__img {
-    max-width: 288px;
-    margin: 0 auto;
+    max-width: 320px;
   }
 }
