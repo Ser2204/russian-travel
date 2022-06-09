@@ -27,6 +27,7 @@
   .place {
     grid-template-columns: minmax(min-content, 340px) 1fr;
     margin: 73px 0 0;
+    gap: 48px 28px;
   }
 }
 

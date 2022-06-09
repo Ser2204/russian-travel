@@ -6,10 +6,5 @@
   letter-spacing: 2px;
   color: #aaaaaa;
   text-transform: uppercase;
-}
-
-@media screen and (max-width: 320px) {
-  .place__url {
-    margin: 0 0 12px;
-  }
+  margin: 0 0 12px;
 }
